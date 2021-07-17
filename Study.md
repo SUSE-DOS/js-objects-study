@@ -1,4 +1,5 @@
 [<img src="assets/images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
+
 # JavaScript Objects: Study
 
 Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along with the provided resources to research and answer the [questions below](#questions).
@@ -17,28 +18,36 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 - [MDN: Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 - [MDN: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
-
 ## Questions
 
 1. What kind of data can you store in an object?
 
-    ```
-    Please write your answer here.
-    ```
+   ```
+   Related properties (or keys) and their value can be stored in an object. Functions can also be stored in an object. A collection of properties in the object would describe the object. For example:
+
+   let myskeleton = {
+       head: "big",
+       arms: "small",
+       legs: "medium",
+       greeting: function hello(){
+           alert("Hi I am Mr Skeleton and I have a" + this.head + "head.")
+       };
+   };
+   ```
 
 1. What's a good use case for using objects?
 
-    ```
-    Please write your answer here.
-    ```
+   ```
+   Objects are a great tool for sending out a series of structured, related data items such as to a server. It is far more efficient to send out a single oject containing these items than sending all the items individually.
+   ```
 
 1. Using a "Fist to Five", what is your comfort and clarity level?
 
-    ```
-    Comfort: 
+   ```
+   Comfort: 4
 
-    Clarity: 
-    ```
+   Clarity: 4
+   ```
 
 ### Response Guidelines
 
